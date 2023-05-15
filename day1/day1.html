@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Here is the simple example</title>
+    <link rel="icon" type="image/x-icon" href="./../image/favicon.ico">
+    <style>
+    /*         
+        p {
+            background-image: url('https://picsum.photos/seed/picsum/200/300');
+            background-repeat:no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+        }
+     */
+</style>
+
+</head>
+<body>
+    <picture>
+        <source media="(min-width: 650px)" srcset="./../image/food.jpg">
+        <source media="(min-width: 465px)" srcset="./../image/car.png">
+        <img src="./../image/img_girl.jpg" style="width: auto">
+    </picture>
+    <p>Resize the browser to see different versions of the picture loading at different viewport sizes.
+        The browser looks for the first source element where the media query matches the user's current viewport width,
+        and fetches the image specified in the srcset attribute.</p>
+    
+    <p>The img element is required as the last child tag of the picture declaration block.
+    The img element is used to provide backward compatibility for browsers that do not support the picture element, or if none of the source tags matched.
+    </p>
+    
+    <p><strong>Note:</strong> The picture element is not supported in IE12 and earlier or Safari 9.0 and earlier.</p>
+
+    
+    <!-- 
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem laudantium incidunt corporis! Quod nostrum quis labore inventore quibusdam. Quas doloremque totam mollitia praesentium dicta explicabo eaque ut quasi est eveniet vel temporibus nihil neque nesciunt non molestiae similique, quam laborum! Dicta quam quidem aliquid pariatur! Reiciendis nam consectetur ut saepe impedit, cumque ratione et dignissimos explicabo! Quidem quibusdam repudiandae ipsa quas officia, dolor nemo laborum consectetur aliquam inventore libero temporibus voluptatem similique quos amet voluptatibus obcaecati odit natus quaerat molestias! Laudantium omnis autem similique necessitatibus alias quam rerum sapiente ea obcaecati vero optio non totam, quo iure. Perspiciatis voluptate totam commodi illo, laudantium natus animi similique porro? Eum, quos dolore ullam eos voluptates maiores illum nam natus tempora odio accusamus obcaecati quisquam quasi enim corrupti et vitae quod animi! Officia distinctio laborum itaque debitis accusantium? Modi perferendis corporis enim architecto esse error deleniti eum est totam nostrum. Consequuntur eaque odit delectus, assumenda, accusamus libero beatae iusto itaque repellendus placeat quibusdam tempore quo ad cupiditate impedit inventore deleniti, dolor reprehenderit adipisci ratione. Aut sapiente nesciunt nostrum sunt labore culpa quo iusto repellat. Iusto laudantium officia, quaerat eos itaque delectus reiciendis sapiente reprehenderit autem tempore repellendus alias deserunt iure id dolor nihil consequuntur quo? Deleniti, illo possimus error dolorem voluptate odio soluta nemo asperiores fugiat eligendi dolor voluptatibus aspernatur cupiditate architecto iusto repudiandae placeat dolores? Eos, doloribus? Mollitia rerum nesciunt earum incidunt sunt, ipsam culpa dolore esse molestias magni unde? Aliquid placeat harum nulla quae cum delectus saepe, incidunt aliquam at laudantium ipsa vero, amet unde accusamus quasi possimus perspiciatis. Optio placeat ut numquam repellendus. Velit sint cumque veniam. Beatae necessitatibus autem cumque consequatur reprehenderit molestiae, inventore debitis ad aut ducimus iure numquam quaerat aspernatur pariatur temporibus maiores perspiciatis expedita corrupti commodi labore dicta dolorem eligendi. Quis repellendus voluptatem fugiat minima eos.</p> 
+    -->
+</body>
+</html>
